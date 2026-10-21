@@ -1,0 +1,29 @@
+{
+  "github_user": "ryder777777",
+  "github_id": 155237013,
+  "verified_email": "sahilridder@gmail.com",
+  "payout_methods": {
+    "primary": {
+      "asset": "USDT",
+      "network": "TRC-20 (Tron Mainnet)",
+      "address": "TXmG2bbkS5m2ZfT535o5kQNpwYzhb5JUYg",
+      "exchange": "Binance"
+    }
+  },
+  "connected_ecosystems": [
+    "tenstorrent/tt-metal",
+    "tenstorrent/tt-smi",
+    "tenstorrent/tt-flash",
+    "tenstorrent/tt-tools-common",
+    "tenstorrent/model-explorer",
+    "limitlessprojects/Go-Hybrid",
+    "Deen-Bridge/dnb-ai",
+    "Deen-Bridge/dnb-backend",
+    "Deen-Bridge/dnb-frontend",
+    "OracleDesk",
+    "flowese/UdioWrapper",
+    "arakoodev/EdgeChains",
+    "tryabby/abby",
+    "trovu/trovu"
+  ]
+}
