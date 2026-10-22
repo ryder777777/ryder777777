@@ -1,29 +1,25 @@
 {
   "github_user": "ryder777777",
-  "github_id": 155237013,
-  "verified_email": "sahilridder@gmail.com",
-  "payout_methods": {
-    "primary": {
-      "asset": "USDT",
-      "network": "TRC-20 (Tron Mainnet)",
+  "preferred_settlement": "CRYPTO_DIRECT_BINANCE_SPOT",
+  "rails": {
+    "tron_trc20_usdt": {
+      "network": "TRX Tron (TRC20)",
+      "token": "USDT",
       "address": "TXmG2bbkS5m2ZfT535o5kQNpwYzhb5JUYg",
-      "exchange": "Binance"
+      "memo_required": false
+    },
+    "stellar_xlm_usdc": {
+      "network": "XLM Stellar Network",
+      "token": "USDC / XLM",
+      "address": "GABFQIK63R2NETJM7T673EAMZN4RJLLGP3OFUEJU5SZVTGWUKULZJNL6",
+      "memo": "401281458",
+      "memo_required": true
+    },
+    "evm_base_erc20_bep20_usdc": {
+      "network": "BASE / Ethereum (ERC20) / BNB Smart Chain (BEP20) / Arbitrum One / Polygon POS",
+      "token": "USDC / USDT / ETH",
+      "address": "0xf30035a0203a0e22812c3b574bad7d63b0a84ee2",
+      "memo_required": false
     }
-  },
-  "connected_ecosystems": [
-    "tenstorrent/tt-metal",
-    "tenstorrent/tt-smi",
-    "tenstorrent/tt-flash",
-    "tenstorrent/tt-tools-common",
-    "tenstorrent/model-explorer",
-    "limitlessprojects/Go-Hybrid",
-    "Deen-Bridge/dnb-ai",
-    "Deen-Bridge/dnb-backend",
-    "Deen-Bridge/dnb-frontend",
-    "OracleDesk",
-    "flowese/UdioWrapper",
-    "arakoodev/EdgeChains",
-    "tryabby/abby",
-    "trovu/trovu"
-  ]
+  }
 }

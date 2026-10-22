@@ -1,12 +1,10 @@
-### Hi, I'm Ryder (`@ryder777777`)
+# Hi, I'm Ryder (`@ryder777777`) 👋
 
-Systems, Compilers & Web3 Engineer working across **C++**, **Rust**, **Go**, **TypeScript**, and **Python**.
+Full-stack systems, Rust, TypeScript, Python, and Soroban/Stellar smart-contract engineer.
 
-#### Engineering Focus
-- **AI & Accelerator Runtimes**: Numerical stability, backward autograd kernels, and hardware telemetry/reset tooling (`tenstorrent/tt-metal`, `tenstorrent/tt-smi`, `tenstorrent/tt-flash`, `tenstorrent/tt-tools-common`).
-- **Compilers & Verification**: Deterministic build reproducibility, SMT/formal verification, and e-graph saturation (`limitlessprojects/Go-Hybrid`).
-- **Web3 & Distributed Systems**: Soroban/Stellar smart contracts, escrow settlement pipelines, and high-reliability API infrastructure.
+### 💳 Verified Crypto Bounty Payout Rails (Binance Spot Wallet — Direct On-Chain Settlement)
 
-#### Contact & Verified Bounty / Grant Payout Details
-- **Email**: `sahilridder@gmail.com`
-- **USDT (TRC-20 / Tron Network)**: `TXmG2bbkS5m2ZfT535o5kQNpwYzhb5JUYg`
+- **USDT (`TRX Tron TRC20`)**: `TXmG2bbkS5m2ZfT535o5kQNpwYzhb5JUYg`
+- **USDC / XLM (`XLM Stellar Network`)**: `GABFQIK63R2NETJM7T673EAMZN4RJLLGP3OFUEJU5SZVTGWUKULZJNL6`
+  - **Required Stellar Memo**: `401281458` *(Both address and memo `401281458` are required for Stellar deposits)*
+- **USDC / USDT / ETH (`BASE` / `Ethereum ERC20` / `BNB Smart Chain BEP20` / `Arbitrum One` / `Polygon POS`)**: `0xf30035a0203a0e22812c3b574bad7d63b0a84ee2`
