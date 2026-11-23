@@ -17,21 +17,26 @@ India · IST (UTC+5:30) · sahilridder@gmail.com
 | Repo | What landed |
 |---|---|
 | [`ttnn-visualizer` #2186–#2191](https://github.com/tenstorrent/ttnn-visualizer/pulls?q=is%3Apr+author%3Aryder777777+is%3Amerged) | 7 PRs — per-op L1 fullness and fragmentation views, `tt-perf-report` error handling, device-log guards |
-| [`tt-cli` #86](https://github.com/tenstorrent/tt-cli/pull/86) | `ps` / `report` require the `org.tenstorrent.tt-model.profile` label instead of guessing |
 | [`turso`](https://github.com/tursodatabase/turso/pulls?q=is%3Apr+author%3Aryder777777+is%3Amerged) | 3 PRs |
 | [`unsloth`](https://github.com/unslothai/unsloth/pulls?q=is%3Apr+author%3Aryder777777+is%3Amerged) · [`feast`](https://github.com/feast-dev/feast/pulls?q=is%3Apr+author%3Aryder777777+is%3Amerged) · [`pnpjs`](https://github.com/pnp/pnpjs/pulls?q=is%3Apr+author%3Aryder777777+is%3Amerged) · [`baseten-switch`](https://github.com/basetenlabs/baseten-switch/pulls?q=is%3Apr+author%3Aryder777777+is%3Amerged) | one fix each |
 
-## Reviewed and approved by maintainers
+## Reviewed and approved by maintainers (open, not merged)
+
+All of these are still open. Approved means a maintainer signed off on the diff, not that it landed.
 
 - **[`tt-metal` #61909](https://github.com/tenstorrent/tt-metal/pull/61909)** — APPROVED (LLK review).
   `pack_untilize_quasar` iterated one block per column instead of all of them.
 - **[`tt-model-manager` #202](https://github.com/tenstorrent/tt-model-manager/pull/202),
   [#203](https://github.com/tenstorrent/tt-model-manager/pull/203)** — approved by the maintainer,
   who ran the suites himself: 1257 and 1259 passed.
-- **[`tt-smi` #292](https://github.com/tenstorrent/tt-smi/pull/292)** — Galaxy reset now waits for
-  and verifies Ethernet link training; missing links raise instead of half-resetting a 6U silently.
+- **[`tt-cli` #86](https://github.com/tenstorrent/tt-cli/pull/86)** — approved, open. `ps` / `report`
+  require the `org.tenstorrent.tt-model.profile` label instead of guessing.
+- **[`tt-smi` #292](https://github.com/tenstorrent/tt-smi/pull/292)** — open, no review yet. Galaxy reset
+  waits for and verifies Ethernet link training; missing links raise instead of half-resetting a 6U silently.
 
 ## Open work worth reading
+
+Both tt-metal PRs below currently have **changes requested** — listed as work in progress, not as finished.
 
 - **[`tt-metal` #61902](https://github.com/tenstorrent/tt-metal/pull/61902)** — `log_sigmoid_bw` on the
   stable `exp(-|x|)` form; `hardshrink_bw` for `lambd < 0`. Tests sweep ±20/±80 where the gradient
